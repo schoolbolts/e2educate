@@ -110,24 +110,26 @@ export default function Home() {
       </main>
 
       {/* Contact */}
-      <section id="contact" className="px-6 py-16 max-w-xl mx-auto w-full">
-        <h2 className="text-2xl font-bold text-white text-center mb-2">
-          Get in touch
-        </h2>
-        <p className="text-sm text-slate-400 text-center mb-8">
-          Questions about our products? We&apos;d love to hear from you.
-        </p>
-        <div
-          className="hs-form-frame"
-          data-region="na2"
-          data-form-id="117549be-b41a-48a8-a722-ee2f1a0d6c69"
-          data-portal-id="245541172"
-        />
+      <section id="contact" className="bg-white px-6 py-16">
+        <div className="max-w-xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-900 text-center mb-2">
+            Get in touch
+          </h2>
+          <p className="text-sm text-slate-500 text-center mb-8">
+            Questions about our products? We&apos;d love to hear from you.
+          </p>
+          <div
+            className="hs-form-frame"
+            data-region="na2"
+            data-form-id="117549be-b41a-48a8-a722-ee2f1a0d6c69"
+            data-portal-id="245541172"
+          />
+        </div>
       </section>
 
       {/* Footer */}
-      <footer className="px-6 py-8 text-center text-sm text-slate-500">
-        &copy; {new Date().getFullYear()} E2Educate. Built in New York.
+      <footer className="bg-white px-6 py-8 text-center text-sm text-slate-400">
+        &copy; {new Date().getFullYear()} E2Educate
       </footer>
     </div>
   );
