@@ -1,13 +1,20 @@
+import Script from "next/script";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <Script
+        src="https://js-na2.hsforms.net/forms/embed/245541172.js"
+        strategy="lazyOnload"
+      />
+
       {/* Nav */}
       <nav className="flex items-center justify-between px-6 py-5 max-w-5xl mx-auto w-full">
         <span className="text-lg font-bold tracking-tight text-white">
           E2Educate
         </span>
         <a
-          href="mailto:rob@schoolbolts.com"
+          href="#contact"
           className="text-sm text-slate-400 hover:text-white transition-colors"
         >
           Contact
@@ -101,6 +108,22 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      {/* Contact */}
+      <section id="contact" className="px-6 py-16 max-w-xl mx-auto w-full">
+        <h2 className="text-2xl font-bold text-white text-center mb-2">
+          Get in touch
+        </h2>
+        <p className="text-sm text-slate-400 text-center mb-8">
+          Questions about our products? We&apos;d love to hear from you.
+        </p>
+        <div
+          className="hs-form-frame"
+          data-region="na2"
+          data-form-id="117549be-b41a-48a8-a722-ee2f1a0d6c69"
+          data-portal-id="245541172"
+        />
+      </section>
 
       {/* Footer */}
       <footer className="px-6 py-8 text-center text-sm text-slate-500">
