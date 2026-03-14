@@ -22,7 +22,7 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
+      <main className="flex-1 flex flex-col items-center justify-center px-6 pb-20 text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight leading-tight mb-4">
             Simple tools for schools.
